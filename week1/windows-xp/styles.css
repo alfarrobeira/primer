@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background-color: #248080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup {
+    width: 400px;
+    height: 140px;
+    margin: 50px auto;
+}
+
+.background {
+    background-color: #c0c0c0;
+}
+
+.border {
+    border: 2px solid white;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    box-shadow: 2px 2px 2px 0px #161415;
+}
+
+.header {
+    background: linear-gradient(to right, #14206C, #a6c9f4);
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 3px 10px;
+}
+
+.content {
+    padding: 20px 30px 3px 30px;
+}
+
+.content-boxes {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+
+.footer {
+    text-align: right;
+}
+
+.footer button {
+    margin: 10px 50px;
+    padding: 3px 8px;
+}
+
+.footer button:hover {
+    background-color: #999999;
+}
+
+.footer button:active {
+    box-shadow: inset 2px 2px 2px 0px #161415;
+}
